@@ -5,7 +5,7 @@ class Environment:
         self.chart_data = chart_data
         self.observation = None
         self.idx = -1
-        
+    
     def reset(self):
         self.observation = None
         self.idx = -1
